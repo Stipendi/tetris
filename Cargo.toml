@@ -1,6 +1,8 @@
 [package]
 name = "tetris"
 version = "0.1.0"
-authors = ["Stipendi <turvatili@icloud.com>"]
+authors = ["Stipendi <pelaaja@icloud.com>"]
 
 [dependencies]
+piston_window = "0.80.0"
+rand = "0.5.5"
