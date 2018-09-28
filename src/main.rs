@@ -15,7 +15,7 @@ fn main() {
     let mut window: PistonWindow = WindowSettings::new("Tetris!", (200, 400))
         .build()
         .expect("Fatal: Failed to build window!");
-    let game = Game::new(window.window.size());
+    let mut game = Game::new(window.window.size());
     while let Some(e) = window.next() {
         window.draw_2d(&e, |c, g| {
             game.render(c, g);
